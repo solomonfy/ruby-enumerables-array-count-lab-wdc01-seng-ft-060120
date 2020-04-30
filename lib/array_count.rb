@@ -11,6 +11,7 @@ def count_empty_strings(array)
 
   index = 0 
   array.count do |array|
-    array[index] == ""
+    array.class == ""
+    #array[index] == ""
   end
 end
