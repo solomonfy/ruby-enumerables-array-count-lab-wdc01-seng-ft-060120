@@ -14,3 +14,4 @@ def count_empty_strings(array)
     array[index] == ""
   end
 end
+end
